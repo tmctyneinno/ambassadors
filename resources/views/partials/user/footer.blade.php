@@ -117,7 +117,7 @@
 
                 <div class="grid grid_6 nicdark_aligncenter_iphoneland nicdark_aligncenter_iphonepotr">
                     <div class="nicdark_space20"></div>
-                    <p class="white">&copy; 2023 Christ Ambassadors | All Rights Reserved</p>
+                    <p class="white">&copy; {{ date('Y') }} Christ Ambassadors | All Rights Reserved</p>
                 </div>
 
 
