@@ -17,7 +17,7 @@ use App\Models\Comment;
 class ViewController extends Controller
 {
 
-    public function index(){
+    public function index(){ 
         $sixItemsgallery = Gallery::inRandomOrder()->limit(6)->get();
         $eventsindex = Event::inRandomOrder()->limit(4)->get();
         $blogsindex = Blog::inRandomOrder()->limit(4)->get();
